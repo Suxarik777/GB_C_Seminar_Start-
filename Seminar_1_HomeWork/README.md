@@ -10,7 +10,13 @@
 ---
 ---
 ## Задачи:
-    Задача 1 (Example001_Proverka_kvadrata_chisla)  
+
+    Задача 1 (Example001_Proverka_kvadrata_chisla) 
+
     По двум заданным числам проверять является ли первое квадратом второго
 
 ---
+
+    Задача 2 (Example002_Dni_nedeli_po_nomeram) 
+
+    По заданному номеру дня недели вывести его название

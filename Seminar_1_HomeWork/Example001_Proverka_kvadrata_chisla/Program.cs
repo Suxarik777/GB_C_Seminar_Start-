@@ -4,7 +4,7 @@ int numberOne = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberTwo = int.Parse(Console.ReadLine());
 
-if(numberTwo * numberTwo == numberOne)
+if (numberTwo * numberTwo == numberOne)
 {
     Console.Write($"Олично! {numberOne} является квадратом второго числа {numberTwo}");
 }
