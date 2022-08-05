@@ -46,3 +46,8 @@
     Задача 7 (Example007_pokazat_vtoroe_chislo(n 2) % 10
 
     Показать вторую цифру трёхзначного числа
+---
+
+    Задача 8 (Example008_sravnenie_dvuh_cifr_v_dvuhznachnom_chisle)
+
+    Дано число из отрезка [10, 99]. Показать наибольшую цифру числа
