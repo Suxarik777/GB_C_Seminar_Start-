@@ -1,0 +1,15 @@
+﻿// Удалить вторую цифру трёхзначного числа
+
+int numRandom = new Random().Next(100, 1000);
+Console.WriteLine($"Генерируем случайное трёхзначное число: {numRandom}");
+
+int digit1 = numRandom / 100; //получение первой цифры
+int digit2 = (numRandom / 10) % 10; //получение второй цифры
+int digit3 = numRandom % 10; //получение третьей цифры
+
+string digitString1 = Convert.ToString(digit1); //ковертируем цифры в строки
+string digitString3 = Convert.ToString(digit3);
+
+string twoDigitNumber = digitString1 + digitString3;
+
+Console.WriteLine($"Удаляем вторую цифру и получаем: {twoDigitNumber}");

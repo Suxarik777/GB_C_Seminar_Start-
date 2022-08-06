@@ -51,3 +51,9 @@
     Задача 8 (Example008_sravnenie_dvuh_cifr_v_dvuhznachnom_chisle)
 
     Дано число из отрезка [10, 99]. Показать наибольшую цифру числа
+---
+
+    Задача 9 (Example009_delet_vtoroi_cifri)
+
+    Удалить вторую цифру трёхзначного числа
+
