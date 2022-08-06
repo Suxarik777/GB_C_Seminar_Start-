@@ -9,6 +9,10 @@ int digit3 = numRandom % 10; //получение третьей цифры
 
 string digitString1 = Convert.ToString(digit1); //ковертируем цифры в строки
 string digitString3 = Convert.ToString(digit3);
+                                                //есть вариант пойти путём формулы
+                                                //int newNumber = digit1 * 10  + digit3; 
+                                                // преобразование трёхзначного числа в двухзначное 
+                                                //(первая цифра умножить на 10 + вторая цифра)
 
 string twoDigitNumber = digitString1 + digitString3;
 
