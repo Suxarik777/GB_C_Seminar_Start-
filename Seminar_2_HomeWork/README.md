@@ -26,3 +26,7 @@
     Задача 4 (Example004_distance_A_i_B_v_2D_3D_poisk_kvadrata_i_kornia) 
 
     Найти расстояние между точками в пространстве 2D/3D
+---
+    Задача 5 (Example005_cube_chisla_ot_1_do_N) 
+
+    Найти кубы чисел от 1 до N
