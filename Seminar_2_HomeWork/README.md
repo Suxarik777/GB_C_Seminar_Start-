@@ -35,6 +35,10 @@
 
     Найти сумму чисел от 1 до А
 ---
-    Задача 7 (EExample007_skolko_cifr_v_chisle) 
+    Задача 7 (Example007_skolko_cifr_v_chisle) 
 
     Определить количество цифр в числе
+---
+    Задача 8 (Example008_factorial_proizvedenie_chisel_ot_1_do_N) 
+
+    Написать программу вычисления произведения чисел от 1 до N
