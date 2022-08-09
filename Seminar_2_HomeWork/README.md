@@ -22,3 +22,7 @@
     Задача 3 (Example003_diapazon_dlia_coordinat_X_Y_beskonechnost) 
 
     Задать номер четверти, показать диапазоны для возможных координат
+---
+    Задача 4 (Example004_distance_A_i_B_v_2D_3D_poisk_kvadrata_i_kornia) 
+
+    Найти расстояние между точками в пространстве 2D/3D
