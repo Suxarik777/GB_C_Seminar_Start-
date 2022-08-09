@@ -30,3 +30,7 @@
     Задача 5 (Example005_cube_chisla_ot_1_do_N) 
 
     Найти кубы чисел от 1 до N
+---
+    Задача 6 (Example006_suma_ot_1_do_N_cherez_while) 
+
+    Найти сумму чисел от 1 до А
