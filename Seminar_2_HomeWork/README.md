@@ -42,3 +42,7 @@
     Задача 8 (Example008_factorial_proizvedenie_chisel_ot_1_do_N) 
 
     Написать программу вычисления произведения чисел от 1 до N
+---
+    Задача 8 (Example009_cube_chisla_+_poslednee_chislo_=_chet_nechet) 
+
+    Показать кубы чисел, заканчивающихся на четную цифру
