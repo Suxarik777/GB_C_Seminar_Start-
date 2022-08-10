@@ -43,6 +43,6 @@
 
     Написать программу вычисления произведения чисел от 1 до N
 ---
-    Задача 8 (Example009_cube_chisla_+_poslednee_chislo_=_chet_nechet) 
+    Задача 9 (Example009_cube_chisla_+_poslednee_chislo_=_chet_nechet) 
 
     Показать кубы чисел, заканчивающихся на четную цифру
