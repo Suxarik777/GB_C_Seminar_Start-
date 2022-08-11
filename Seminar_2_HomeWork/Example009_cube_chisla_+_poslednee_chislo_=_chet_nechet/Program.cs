@@ -30,7 +30,9 @@ while (index <= numberN)
     }
     // else if(numCheck != 0)
     // {
-    //     Console.WriteLine($"Куб числа {index} заканчивается на нечетную цифру = {num}");
+    // //     Console.WriteLine($"Куб числа {index} заканчивается на нечетную цифру = {num}");
+    // //      или
+    //      continue;
     // }
     index++;
 }
