@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// В двумерном массиве показать позиции числа, заданного пользователем или указать, 
+// что такого элемента нет
 
 int InputNumber(string text)
 {
