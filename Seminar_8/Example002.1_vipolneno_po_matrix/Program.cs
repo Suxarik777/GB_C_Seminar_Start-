@@ -67,6 +67,7 @@ PrintArrayDouble(matrix);
 
 int[] element = WhiElements(matrix);
 
+
 int count = 1;
 for(int i = 0; i < element.Length; i++)
 {
