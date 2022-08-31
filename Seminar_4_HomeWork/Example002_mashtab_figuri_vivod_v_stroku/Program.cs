@@ -83,3 +83,5 @@ double[] multiplikationNumbersArray = MultiplicationNumbers(coordinatesNumArray,
 
 Console.WriteLine($"Координаты в масштабе {coefficient}: ");
 Console.WriteLine(OutputCoordinatesToString(multiplikationNumbersArray));
+
+// внимание СМОТРИ 6 лекцию... там применили решение с знанием функций C#
