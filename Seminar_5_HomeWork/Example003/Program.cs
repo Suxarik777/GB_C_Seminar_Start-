@@ -24,40 +24,20 @@
 
 
 
-// int year = int.Parse(Console.ReadLine());
-
-// void NextDiffYear(int year)
-// {
-//     for (int y = year + 1; ; y++)
-//     {
-//         int a = y / 1000;
-//         int b = y / 100 % 10;
-//         int c = y / 10 % 10;
-//         int d = y % 10;
-//         if (a != b && b != c && c != d && a != c && a != d && b != d)
-//         {
-//           Console.WriteLine(y); 
-//             return;
-//         }
-//     }
-// }
-// NextDiffYear(year);
-
-
-// Console.WriteLine("Введите число для проверки: ");
-// int n = int.Parse(Console.ReadLine() ?? "0");
-// bool k = false; 
-// for(int i=0; i < Digitsnumber(n); i++)
-// {    
-//     if((Digitindex(n,i+1) == 4 || Digitindex(n,i+1) == 7)
-//         &&(Digitsnumber(n) == 4 || Digitsnumber(n) == 7))
-//         k = true;
-// }
-// if(k == true)
-// {
-//     Console.WriteLine("Да, введенное Вами число является счастливым.");
-// }
-// else
-// {
-//     Console.WriteLine("Нет, введенное Вами число не является счастливым.");
-// }
+Console.Write("Укажите год: ");
+int y = int.Parse(Console.ReadLine());
+int a,b,c,d;
+for (int i = y + 1; i < 9001; i++)
+{
+    a = i / 1000;
+    b = i / 100 % 10;
+    c = i / 10 % 10; 
+    d = i % 10;
+    if (a != b && a != c && a != d && 
+        b != c && b != d && 
+        c != d)
+        {
+            Console.WriteLine($"Ближайший год с разными цифрами: {i}");
+            break;
+        }
+}

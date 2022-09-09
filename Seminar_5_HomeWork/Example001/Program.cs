@@ -29,3 +29,15 @@
 
 // если целые числа 
 // если нецелые числа
+
+Console.WriteLine("Укажите: Длину, ширину, сторону квадратной плиты: ");
+string str = Console.ReadLine();
+int[] num = str.Split(' ').Select(int.Parse).ToArray();
+long x,y;
+x = num[0] / num[2];
+y = num[1] / num[2];
+if (num[0] % num[2] != 0)
+    x++;
+if (num[1] % num[2] != 0)
+    y++;
+Console.WriteLine(x*y);

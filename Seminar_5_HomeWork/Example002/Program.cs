@@ -31,3 +31,31 @@
 // чем за 3 шага.
 
 //https://codeforces.com/contest/617/problem/A
+
+Console.Write("Укажите координаты друга слоника: ");
+int x = int.Parse(Console.ReadLine());
+int step = 0;
+while(x != 1){
+if (x % 5 == 0){ 
+    step = step+x/5;
+    break;
+    }
+else if (x % 4 == 0) {
+    step = step+x/4;
+    break;
+    }
+else if (x % 3 == 0) {
+    step = step+x/3;
+    break;
+    }
+else if (x % 2 == 0) {
+    step = step+x/2;
+    break;
+    }
+else{
+    x -= 1;
+    step ++;
+}
+}
+if (step != 0) Console.WriteLine(step);
+else Console.WriteLine(1);

@@ -37,3 +37,14 @@
 // поэтому ответ «NO».
 // Во втором примере все цифры числа — счастливые, а их общее количество — 7, поэтому ответ «YES».
 // В третьем примере в числе нет счастливых цифр, поэтому ответ «NO».
+
+Console.Write("Укажите число: ");
+string str = Console.ReadLine();
+char[] ch = str.ToCharArray();
+int c = 0;
+foreach(var element in ch){
+    Console.Write(element);
+    if (element == '7' || element == '4') c++;
+}
+if (c == 7 || c == 4) Console.WriteLine(" - Yes");
+else Console.WriteLine(" - No");
